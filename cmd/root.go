@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/matt-simons/ss/pkg"
+	"github.com/matt-simons/syncset-gen/pkg"
 	"github.com/openshift/hive/pkg/apis/hive/v1alpha1"
 	"github.com/spf13/cobra"
 )

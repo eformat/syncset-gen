@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/matt-simons/ss/cmd"
+	"github.com/matt-simons/syncset-gen/cmd"
 )
 
 func main() {

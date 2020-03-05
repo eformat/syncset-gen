@@ -165,7 +165,7 @@ func TransformSecrets(name, prefix, path string) []corev1.Secret {
 					if l == nil {
 						l = make(map[string]string)
 					}
-					key := "atlas.worldpay.com/" + prefix
+					key := "foobar.com/" + prefix
 					l[key] = name
 					s.ObjectMeta.SetNamespace("remote-secrets")
 					s.ObjectMeta.SetName(fmt.Sprintf("%s-%s-%s-%s", prefix, name, ns, n))
